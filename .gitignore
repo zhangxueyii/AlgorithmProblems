@@ -1,0 +1,27 @@
+# Build files
+.gradle
+distribution/caches
+distribution/global.lock
+out
+target
+workspace/deploy/
+
+# E2E build files
+.allure/
+
+# IntelliJ project files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+.ideaDataSources/
+/dataSources/
+
+# OS files
+.DS_Store
+
+# Eclipse
+.project
+.classpath
+.settings/
