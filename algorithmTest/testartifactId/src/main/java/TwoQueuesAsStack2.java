@@ -3,8 +3,8 @@ import com.sun.tools.javac.util.ListBuffer;
 import java.util.Queue;
 
 public class TwoQueuesAsStack2 {
-    Queue<Integer> queueMaster = new ListBuffer();
-    Queue<Integer> queueSlave = new ListBuffer<>();
+    private Queue<Integer> queueMaster = new ListBuffer();
+    private Queue<Integer> queueSlave = new ListBuffer<>();
 
     public void push(Integer elem) {
         queueMaster.add(elem);

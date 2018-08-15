@@ -6,8 +6,8 @@ import java.util.Queue;
 This approach: Move elements in queue when pushing in new element.
  */
 public class TwoQueuesAsStack1 {
-    Queue<Integer> queueSlave = new ListBuffer();
-    Queue<Integer> queueMaster = new ListBuffer();
+    private Queue<Integer> queueSlave = new ListBuffer();
+    private Queue<Integer> queueMaster = new ListBuffer();
 
     public void push(Integer element) {
 
